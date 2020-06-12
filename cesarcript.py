@@ -4,8 +4,8 @@ import json
 from requests.exceptions import HTTPError
 
 sJsonFile = 'answer.json'
-urlGet    = "https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=5437fa01dc510624e116d59e39024b1a980a1e96"
-urlPost   = "https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=5437fa01dc510624e116d59e39024b1a980a1e96"
+urlGet    = "https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=TOKEN"
+urlPost   = "https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=TOKEN"
 
 def cesarcript(sText, nStep):
 	sCript = ''
